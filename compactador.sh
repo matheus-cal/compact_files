@@ -1,13 +1,9 @@
 #!/bin/bash
 
-chmod +x gera_estrutura.sh 
+cd ./
 
-./gera_estrutura.sh $1
+mkdir -p $1_backup 
 
-cd $1
+tar --exclude="$1/target" -cvjf $1_$(date +%Y%m%d).tar.gz $1
 
-mkdir -p $2_backup 
-
-tar --exclude="$2/target" -cvjf $2_$(date +%Y%m%d).tar.gz $2
-
-mv $2_$(date +%Y%m%d).tar.gz $2_backup 
+mv $1_$(date +%Y%m%d).tar.gz $1_backup 

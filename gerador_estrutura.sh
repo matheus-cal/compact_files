@@ -11,6 +11,10 @@ touch backup_submit.sh
 touch build.sbt
 touch submit.sh
 
+cd ../
+
+mv compactador.sh $1
+
 
 
 
