@@ -1,7 +1,6 @@
-# Projeto_02
-Primeiro Shell Script cria a uma árvore de diretórios e arquivos recebendo o nome da pasta principal como parâmetro.
+# Files Compactor
+Primeiro Shell Script cria a uma árvore de diretórios como exemplo:
 
-Exemplo da árvore criada:
 [semantix@ip-0-0-0-0 projects]$ ll
 total 1652
 drwxrwxr-x  9 semantix semantix     211 Feb 10 18:04 caseA-pre-process
@@ -29,10 +28,9 @@ O segundo Shell Script recebe como parâmetro diretório pretendido e realiza a 
 
 O conteúdo das pastas no diretório "target" é mantida fora da compressão.
 
-# Project_02
-The first Shell Script creates a directory and file tree, receiving the folder's name as parameter.
+# Files Compactor
+The first Shell Script creates a directory and file tree as example:
 
-Created tree example:
 [semantix@ip-0-0-0-0 projects]$ ll
 total 1652
 drwxrwxr-x  9 semantix semantix     211 Feb 10 18:04 caseA-pre-process
@@ -56,6 +54,6 @@ drwxrwxr-x 4 semantix semantix   30 Feb 10 18:00 src
 -rwxrwxr-x 1 semantix semantix 6852 Feb 12 18:44 submit.sh
 drwxrwxr-x 4 semantix semantix   55 Feb 12 19:01 target
 
-The second Shell Script receives the intended directory as parameter and execute a compression (tar.gz) of each project individually with the date as referance in the file's name.  The compacted files created must be placed in a directory with the same name as the intended directory, plus the "_backup" suffix.
+The second Shell Script receives the intended directory as parameter and execute a compression (tar.gz) of each project individually with the date as referance in the file's name. The compacted files created must be placed in a directory with the same name as the intended directory, plus the "_backup" suffix.
 
 The "target" directory content is held out of compression process. 
